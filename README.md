@@ -57,6 +57,19 @@ DINGTALK_SECRET 群内机器人的安全设置选择加签生成的密钥
 ![配置示意](./images/dingtaik.png)
 
 ```
+当你为钉钉群管理或者群主时 搭配群助手的自动化功能 可实现机器人输出日报信息后 群助手自动回复日报填写链接 从而复制日报直接进入链接填写
+钉钉日报填写地址：https://report.dingtalk.com/alid/app/reportpc/createreport.html?corpid=dingc0ef3bb242815cd035c2f4657eb6378f&comeFromInside=1&templateId=15dcb324549d958d99832164887913dc&sourcefrom=immsg
+```
+
+![配置示意](./images/cicd1.png)
+
+```
+
+```
+
+![配置示意](./images/cicd2.png)
+
+```
 
 4.报告配置
 REPORT_AUTHOR 名字
