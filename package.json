@@ -11,11 +11,17 @@
     "reminder": "node index.js --reminder",
     "direct": "node index.js --direct"
   },
-  "keywords": ["gitlab", "dingtalk", "ai", "daily-report"],
+  "keywords": [
+    "gitlab",
+    "dingtalk",
+    "ai",
+    "daily-report"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.6.0",
+    "clipboardy": "^2.3.0",
     "dotenv": "^16.3.1"
   }
 }
