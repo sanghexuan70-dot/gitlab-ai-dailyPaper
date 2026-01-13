@@ -128,9 +128,3 @@ DOTENV_CONFIG_PATH=.env.lisi node index.js
 # 多个项目用逗号分隔
 GITLAB_PROJECT_IDS=123,456,789
 ```
-
-程序会自动合并所有项目的提交记录。
-
-```
-
-```
