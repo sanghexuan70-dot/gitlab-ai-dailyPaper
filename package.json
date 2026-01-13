@@ -1,0 +1,21 @@
+{
+  "name": "gitlab-to-dingtalk-daily-report",
+  "version": "1.0.0",
+  "description": "自动从 GitLab 获取提交记录并通过 AI 生成日报发送到钉钉",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "server": "node server.js",
+    "test": "node index.js --dry-run",
+    "reminder": "node index.js --reminder",
+    "direct": "node index.js --direct"
+  },
+  "keywords": ["gitlab", "dingtalk", "ai", "daily-report"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  }
+}
