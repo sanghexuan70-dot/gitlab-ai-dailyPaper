@@ -9,10 +9,35 @@ npm install
 ### 1. 复制配置文件
 
 ```bash
+生成配置文件示例
 cp .env.example .env
 ```
 
 ### 2. 编辑 `.env` 文件
+
+```bash
+1.GitLab配置
+GITLAB_URL 公司的gitlab地址
+GITLAB_TOKEN gitlab账号的 Access Tokens 记住要勾选 api, read_api, read_repository
+![配置示意](./images/gitlab_token.png)
+GITLAB_PROJECT_IDS 你经常提交的gitlab项目id 多个用逗号,隔开
+![配置示意](./images/gitlab_project_ids.png)
+GITLAB_AUTHOR_USERNAME 项目提交记录中
+![配置示意](./images/username.png)
+
+2.AI配置
+个人建议去申请zhipu的apikey是免费的 模型(glm-4-flash)
+
+3.钉钉配置
+DINGTALK_WEBHOOK 群内机器人的webhook
+![配置示意](./images/webhook.png)
+DINGTALK_SECRET 群内机器人的安全设置选择加签生成的秘药
+![配置示意](./images/dingtaik.png)
+
+4.报告配置
+REPORT_AUTHOR 名字
+REPORT_TEAM 项目组名
+```
 
 # 发送日报到钉钉
 
@@ -86,13 +111,6 @@ GITLAB_PROJECT_IDS=123,456,789
 
 程序会自动合并所有项目的提交记录。
 
-### 周报模式
+```
 
-修改 `index.js`,将日期范围改为一周:
-
-```javascript
-// 获取本周一到今天
-const startDate = new Date();
-startDate.setDate(startDate.getDate() - startDate.getDay() + 1); // 本周一
-startDate.setHours(0, 0, 0, 0);
 ```
