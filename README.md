@@ -21,19 +21,19 @@ GITLAB_URL 公司的gitlab地址
 GITLAB_TOKEN gitlab账号的 Access Tokens 记住要勾选 api, read_api, read_repository
 ```
 
-(./images/gitlab_token.png)
+![配置示意](./images/gitlab_token.png)
 
 ```
 GITLAB_PROJECT_IDS 你经常提交的gitlab项目id 多个用逗号,隔开
 ```
 
-(./images/gitlab_project_ids.png)
+![配置示意](./images/gitlab_project_ids.png)
 
 ```
 GITLAB_AUTHOR_USERNAME 项目提交记录中
 ```
 
-(./images/username.png)
+![配置示意](./images/username.png)
 
 ```
 
@@ -44,13 +44,13 @@ GITLAB_AUTHOR_USERNAME 项目提交记录中
 DINGTALK_WEBHOOK 群内机器人的webhook
 ```
 
-(./images/webhook.png)
+![配置示意](./images/webhook.png)
 
 ```
 DINGTALK_SECRET 群内机器人的安全设置选择加签生成的密钥
 ```
 
-(./images/dingtaik.png)
+![配置示意](./images/dingtaik.png)
 
 ```
 
